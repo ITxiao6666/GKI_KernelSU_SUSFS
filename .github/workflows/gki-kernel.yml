@@ -228,7 +228,7 @@ jobs:
             "Stable(标准)")
               case "$variant_input" in
                 "Next")
-                  echo "BRANCH=-s next-susfs-dev" >> $GITHUB_ENV
+                  echo "BRANCH=-s next" >> $GITHUB_ENV
                   ;;
                 "SukiSU")
                   echo "BRANCH=-s susfs-main" >> $GITHUB_ENV
